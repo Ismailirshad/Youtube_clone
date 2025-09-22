@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Homepage Clone </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body class="sidebar-hidden">
+  <div class="container">
+    <!-- header/navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uis uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="./images/logo.png" alt="" class="logo-image">
+            <h2 class="logo-text">CnTube</h2>
+          </a>
+        </div>
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="text" placeholder="Search" required class="search-input">
+            <button class="nav-button search-button">
+              <i class="uis uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uis uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="./images/logo.png" alt="" class="user-image">
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-layout">
+      <!-- slidebar -->
+      <div class="screen-overlay"></div>
+      <aside class="sidebar">
+        <div class="link-container">
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-estate"></i>Home
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-video"></i>Shorts
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i>Subscription
+            </a>
+          </div>
+          <div class="section-separator"></div>
+
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-user-square"></i>Your channel
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-history"></i>History
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-clock"></i>Watch later
+            </a>
+          </div>
+          <div class="section-separator"></div>
+
+          <div class="link-section">
+            <h4 class="section-title">Explore</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-fire"></i>Trending
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-trophy"></i>Sports
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-music"></i>music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-basketball"></i>Gaming
+            </a>
+          </div>
+          <div class="section-separator"></div>
+
+          <div class="link-section">
+            <h4 class="section-title">More from youtube</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-shield-plus"></i>Youtube plus
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-headphones-alt"></i>Youtube music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-airplay"></i>Youtube kids
+            </a>
+          </div>
+          <div class="section-separator"></div>
+
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-setting"></i>Settings
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-file-medical-alt"></i>Report
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-question-circle"></i>Help
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-exclamation-triangle"></i>Feedback
+            </a>
+          </div>
+
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">Website</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">Node.js</button>
+          <button class="category-button">Javascript</button>
+          <button class="category-button">React.js</button>
+          <button class="category-button">Typescript</button>
+          <button class="category-button">Coding</button>
+          <button class="category-button">Next.js</button>
+          <button class="category-button">Data Analysis</button>
+          <button class="category-button">Web design</button>
+          <button class="category-button">HTML</button>
+          <button class="category-button">Tailwind<button>
+              <button class="category-button">CSS</button>
+              <button class="category-button">Express.js</button>
+
+        </div>
+
+        <!-- Video list -->
+        <div class="video-list">
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Top 10 easy way create Javascript games
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">10k Views o 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src=" https://i.ytimg.com/vi/YEloDYy3DTg/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Create A Responsive Website with Login & Registration Form in HTML CSS and JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">100k Views o 3 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  How to make Responsive Card Slider in HTML CSS & JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">211k Views o 3year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/hSSdc8vKP1I/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Build Hangman Game in HTML CSS and JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">23k Views o 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/coj-l7IrwGU/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  How to Make Chrome Extension in HTML CSS & JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">3k Views o 1 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/6QE8dXq9SOE/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Create A Draggable Card Slider in HTML CSS and Vanilla JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">1m Views o 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/q4RgxiDM6v0/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  How to make Responsive Image Slider in HTML CSS and JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">11k Views o 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/DLs1X9T1GcY/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Create Text Typing Effect in HTML CSS & Vanilla JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">1m Views o 1 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/PsNaoDhzQm0/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Create Responsive Image Slider in HTML CSS and JavaScript
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">11m Views o 5 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Top 10 easy way create Javascript games
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">1m Views o 1 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://img.youtube.com/vi/HD13eq_Pmp8/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Learn HTML in 1 hour 🌎
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">4m Views o 11 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://img.youtube.com/vi/GxmfcnU3feo/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  The Complete Web Development Roadmap
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">55k Views o 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://img.youtube.com/vi/TG6XSFeOT3g/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  How I'd Learn Web Development (If I Could Start Over)
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">3m Views o 2 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://img.youtube.com/vi/ysEN5RaKOlA/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+              <p class="duration">10:03</p>
+            </div>
+            <div class="video-info">
+              <img src="./images/logo.png" alt="Channel logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">
+                  Learn web development as an absolute beginner
+                </h2>
+                <p class="channel-name">CnTube</p>
+                <p class="views">332k Views o 5 months ago</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
